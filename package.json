@@ -2,10 +2,17 @@
   "name": "dsh-tool-planner",
   "version": "0.1.0",
   "description": "Plan a tool by interviewing the user about their manual process.",
-  "author": "Wasif Alam Dip (https://github.com/wasifalamdip)",
+  "author": "Wasif Alam Dip (https://github.com/WasifAlamDip)",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WasifAlamDip/dsh-fde-tool-planner.git"
+  },
   "keywords": ["dsh-plugin", "planner", "workflow", "non-technical"],
+  "exports": {
+    "./package.json": "./package.json"
+  },
   "files": ["cordis.patch.yml", "skills", "README.md", "LICENSE"],
   "dsh": {
     "bundle": {

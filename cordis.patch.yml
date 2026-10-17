@@ -1,3 +1,11 @@
+# Registers this package's skills/ folder as a skill source.
+# dsh-skill-filesystem ships with dsh, so no dependency is declared.
 - insert:
-    - id: tool-planner
-      name: 'dsh-tool-planner'
+    - id: tool-planner-skills
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: tool-planner
+        includeDefaultRoots: false
+        watch: false
+        customSkillDirs:
+          - !!js process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:path').dirname(process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-tool-planner/package.json')), 'skills')
