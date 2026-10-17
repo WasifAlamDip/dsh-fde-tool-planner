@@ -5,7 +5,9 @@ A DSH skill that helps non-programmers plan and build a tool by interview.
 It walks the user through how they do the task by hand today, one plain-language step at a time, turning each step into a flowchart node. Then a short round of automation questions, a plain-language plan, and explicit approval before building.
 
 ## Install
-
+Desktop install:
+Plugins" → "Add Plugin", paste the repository address, and click install. Restart the application to take effect.
+web install:
 Run this command in your terminal:
 dsh plugin --profile <wasifalamdip> add github: wasifalamdip/dsh-tool-planner
 
