@@ -1,5 +1,3 @@
-# dsh-fde-tool-planner
-Any layman domain expert can develop tools to automate any task using dsh.
 # dsh-tool-planner
 
 A DSH skill that helps non-programmers plan and build a tool by interview.
@@ -8,5 +6,17 @@ It walks the user through how they do the task by hand today, one plain-language
 
 ## Install
 
-```bash
-dsh plugin --profile <your-profile> add github:YOUR_USERNAME/dsh-tool-planner
+Run this command in your terminal:
+dsh plugin --profile <wasifalamdip> add github: wasifalamdip/dsh-tool-planner
+
+## Usage
+
+Describe what you want in 3–4 lines. Answer in plain language — no technical knowledge needed.
+
+## Credits
+
+Built by [wasifalamdip](https://github.com/YOUR_USERNAME).
+
+## License
+
+MIT
